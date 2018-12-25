@@ -63323,3 +63323,10 @@ var data = [{
 	"ctime": "2017-07-25",
 	"website": ""
 }]
+
+// 所有銀行，不包含分行
+var o = data.filter((obj) => {
+    return obj.brandCode === '';
+});
+
+
